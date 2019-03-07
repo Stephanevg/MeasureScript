@@ -1,6 +1,6 @@
-﻿#. C:\Users\taavast3\OneDrive\Repo\Projects\OpenSource\MeasureScript\Classes\Profiler.class.ps1
+﻿
 
-Import-Module "$PSScriptRoot\..\MeasureScript\MeasureScript.psd1"  -Force
+Import-Module "$PSScriptRoot\..\src\MeasureScript.psd1" -Force
 
 InModuleScope  "MeasureScript"{
 

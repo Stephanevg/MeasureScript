@@ -1,6 +1,7 @@
-﻿using module C:\Users\taavast3\OneDrive\Repo\Projects\OpenSource\MeasureScript\MeasureScript
+﻿Import-Module "$PSScriptRoot\..\src\MeasureScript.psd1" -Force
 
 InModuleScope -ModuleName MeasureScript -ScriptBlock {
+
 
 Describe '[TimeLine]-[Constructors]'{
 
